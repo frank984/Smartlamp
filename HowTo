@@ -7,12 +7,12 @@ https://cloud.githubusercontent.com/assets/6491927/8182677/ff0f8030-1431-11e5-91
 
 For decoding you can use the examples files IRrecord inside the folder examples of IRremote library. Alternatively you can use the program AnalysIR and its sketch. You can download it only as a result of a donation on the site http://www.analysir.com/blog/
 The fundamental signals to be recorded and updated in the sketch cover the following settings: 
-•	Heating on, 26°C;
-•	Heating on, 21°C;
-•	Dehumidification on, 21°C;
-•	Dehumidification on, 26°C;
-•	Cooling on, 22°C;
-•	Cooling on, 26°C;
+•	Heating on, 24°C;
+•	Heating on, 22°C;
+•	Dehumidification on, 22°C;
+•	Dehumidification on, 25°C;
+•	Cooling on, 23°C;
+•	Cooling on, 25°C;
 •	PdC OFF;
 Once you obtained the signals relating to the settings listed above you can move on to actual construction of smart lamp. Basic you need the following components:
 •	Arduino MEGA 2560
