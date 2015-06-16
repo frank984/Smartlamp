@@ -14,7 +14,8 @@ The fundamental signals to be recorded and updated in the sketch cover the follo
 •	Cooling on, 23°C;
 •	Cooling on, 25°C;
 •	PdC OFF;
-Once you obtained the signals relating to the settings listed above you can move on to actual construction of smart lamp. Basic you need the following components:
+
+Once you obtained the signals relating to the settings listed above you can switch to construction of the smart lamp. Basic you need the following components:
 •	Arduino MEGA 2560
 •	DHT22 sensor
 •	RTC module based on DS1307 chip
@@ -32,5 +33,5 @@ The libraries that must be included in the libraries folder of your IDE 1.6.4 ar
 •	RTClib.h
 •	SD.h
 •	SPI.h
-The current state the smart lamp puts into practice the algorithm shown in the following diagram:
+At the current state the smart lamp puts into practice the algorithm shown in the following diagram:
 https://cloud.githubusercontent.com/assets/6491927/8182731/8909e988-1432-11e5-9a6a-8b7d4a98022a.jpg
