@@ -1,0 +1,36 @@
+Before you proceed to the realization of your personal smart lamp you must first acquire the remote control codes of your air conditioner. To do this it is necessary to have:
+•	Arduino UNO or equivalent
+•	TSOP 31238 IR Receiver
+•	10 μF capacitor
+The wiring diagram is shown below:
+https://cloud.githubusercontent.com/assets/6491927/8182677/ff0f8030-1431-11e5-91a9-4bce42bab2e0.png
+
+For decoding you can use the examples files IRrecord inside the folder examples of IRremote library. Alternatively you can use the program AnalysIR and its sketch. You can download it only as a result of a donation on the site http://www.analysir.com/blog/
+The fundamental signals to be recorded and updated in the sketch cover the following settings: 
+•	Heating on, 26°C;
+•	Heating on, 21°C;
+•	Dehumidification on, 21°C;
+•	Dehumidification on, 26°C;
+•	Cooling on, 22°C;
+•	Cooling on, 26°C;
+•	PdC OFF;
+Once you obtained the signals relating to the settings listed above you can move on to actual construction of smart lamp. Basic you need the following components:
+•	Arduino MEGA 2560
+•	DHT22 sensor
+•	RTC module based on DS1307 chip
+•	LED IR 333A
+•	Wireless shield with
+•	Micro SD
+The wiring diagram is shown below:
+https://cloud.githubusercontent.com/assets/6491927/8182715/65b49316-1432-11e5-97d3-417ab55b2dde.png
+
+The libraries that must be included in the libraries folder of your IDE 1.6.4 are:
+•	IRremote.h
+•	DHT.h
+•	EEPROM.h  (verify if your EEPROM library support EEPROM.update. Otherwise download new library from : https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/libraries/EEPROM)
+•	Wire.h
+•	RTClib.h
+•	SD.h
+•	SPI.h
+The current state the smart lamp puts into practice the algorithm shown in the following diagram:
+https://cloud.githubusercontent.com/assets/6491927/8182731/8909e988-1432-11e5-9a6a-8b7d4a98022a.jpg
