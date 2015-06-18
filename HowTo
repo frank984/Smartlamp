@@ -20,7 +20,7 @@ Once you obtained the signals relating to the settings listed above you can swit
 •	DHT22 sensor
 •	RTC module based on DS1307 chip
 •	LED IR 333A
-•	Wireless shield with
+•	Wireless shield
 •	Micro SD
 The wiring diagram is shown below:
 https://cloud.githubusercontent.com/assets/6491927/8182715/65b49316-1432-11e5-97d3-417ab55b2dde.png
