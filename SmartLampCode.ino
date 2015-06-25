@@ -210,7 +210,7 @@ void loop() {
       myFile.println("0,0,0");
       myFile.close();
     }
-    delay((60000 * 60 * ((24-Stop) + Start))+60000); //check each 60000 (millisecond in 1 minute) * 60 (minutes) * (24-Stop) + Start) (hours between Start and Stop) + 60000 (1 minute).
+    delay((60000 * 60 * ((24-Stop) + Start))+(60000*14)); //check each 60000 (millisecond in 1 minute) * 60 (minutes) * (24-Stop) + Start) (hours between Start and Stop) + (60000*14) (14 minutes).
   }
 }
 
