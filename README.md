@@ -1,5 +1,5 @@
 # Smartlamp
-How to create your personal smart lamp, a desk lamp like no others. 
+How to create your personal smart lamp, a desk lamp like no other. 
 
 For more details, please consider the following paper in open access format:
 https://www.mdpi.com/1424-8220/16/3/338
